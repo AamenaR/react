@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+/* 003B95 */
+
+.background-color{
+    background: #003B95;
+    color: #fff;
+}
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+}
+/* nav styling */
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+li{
+    font-size: larger;
+    padding: 8px 12px;
+    border-radius: 30px;
+    transition: .4s;
+    /* margin-right: 6px; */
+}
+li:nth-child(4){
+    font-weight: bold;
+    font-size: 16px;
+    word-spacing: 0;
+}
+li:nth-child(2) img{
+    border-radius: 50%;
+    height: 30px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+button{
+    background: #fff;
+    padding: 10px 10px;
+    color: #006ce4;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+/* ------------------------ */
+/* second nav list */
+
+/* hoveing effect */
+.Home-link{
+    border: 1px solid #fff;
+}
+ .Home-link, li:hover{
+    background-color: #ffffff36;
+    border-radius: 30px;
+    /* padding: 10px 12px; */
+}
+/* second nav list */
+.heading-info{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.heading-info h1{
+    font-size: 45px;
+}
+.heading-info p{
+    font-size: 24px;
+}
+/* searchBar styles */
+.bg-search{
+    background-color:#FFB700;
+    display: flex;
+    flex-direction: row;
+}
+.margin-t{
+    margin-top: -30px;
+}
+/* Fix for row */
+.booking-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 0;
+}
+.ul-hover {
+ gap: .5rem;
+}
+/* date selecting functionality */
+.check-in-date {
+    position:absolute;
+    top: 100%;
+    width: 100px;
+    left: 0;   
+}
+.baap{
+    position: relative;
+}
