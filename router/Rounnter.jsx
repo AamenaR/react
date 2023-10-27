@@ -7,154 +7,26 @@ import Home from './Home';
 
 function Rounnter() {
   return (
-
+// main router compo
     <div className='App'>
         <Link to="/home" target="_blank">HOME</Link> 
         <Link to="/About" target="_blank">ABOUT</Link>
 
 
       <Routes>
+        
         <Route path="/home" element={<Home/>}></Route>
         <Route path="/About" element={<About/>}>
+{/*           nested routes */}
           <Route path='About1' element={<About1/>}></Route>
-          <Route path='About2' element={<About2/>}></Route>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          
+          <Route path='About2' element={<About2/>}></Route>         
         </Route>
+        
       </Routes>
     </div>
   )
 }
 
 export default Rounnter;
+
+// after this we have to call this compo in app.js  <BrowserRouter> inbuilt compo,
